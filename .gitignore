@@ -10,3 +10,6 @@ src/**/*.bs.js
 lib/
 .cache/
 dist/
+
+#yarn
+yarn.lock
