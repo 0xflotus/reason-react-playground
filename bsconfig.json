@@ -1,5 +1,5 @@
 {
-  "name": "reason-react-tutorial",
+  "name": "reason-react-example",
   "sources": [
     {
       "dir": "src",
@@ -14,7 +14,7 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": ["reason-react"],
+  "bs-dependencies": ["reason-react", "bs-css"],
   "bs-dev-dependencies": [],
   "warnings": {
     "error": "+101"
