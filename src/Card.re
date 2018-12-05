@@ -14,11 +14,7 @@ let make = (~name, ~description, ~href, _children) => {
   ...component,
   render: _self =>
     <div className=Styles.card>
-      <h3>
-        <a href target="_blank">
-          {ReasonReact.string(name)}
-        </a>
-      </h3>
+      <h3> <a href target="_blank"> {ReasonReact.string(name)} </a> </h3>
       <p> {ReasonReact.string(description)} </p>
     </div>,
 };
